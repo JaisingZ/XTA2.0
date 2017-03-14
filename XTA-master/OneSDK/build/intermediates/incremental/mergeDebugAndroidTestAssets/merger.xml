@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/assets"/></dataSet><dataSet config="main"><source path="/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/src/androidTest/assets"/><source path="/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">寻ta</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_under">别再跟ta走丢了</string>
+    <string name="sign_short">© 2016 NUAA. 吹海风团队</string>
+    <string name="cant_access_network">啊哦，网络好像抽风了~</string>
+    <string name="reconnect">重新连接</string>
+</resources>

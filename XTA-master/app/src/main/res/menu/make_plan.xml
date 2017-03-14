@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.activity.TaskPublishActivity">
+
+    <item
+        android:id="@+id/action_ok"
+        android:icon="@drawable/ok"
+        android:orderInCategory="100"
+        android:title="发布"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_voice_rec"
+        android:title="语音输入"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/voice"/>
+    <item android:id="@+id/action_location"
+        android:title="我的位置"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/my_location"/>
+</menu>

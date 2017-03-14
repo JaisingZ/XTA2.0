@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/anim/popup_window_in.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/anim/popup_window_in.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/anim/popup_window_out.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/anim/popup_window_out.xml"
+    }
+]

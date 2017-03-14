@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_web_view_activity_feedback.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_web_view_activity_feedback.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_progress_dialog.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_web_view_menu.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_web_view_menu.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_web_view_activity_feedback_titlebar.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_web_view_activity_feedback_titlebar.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_web_view_title_bar.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_web_view_title_bar.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tea_sdk_web_view_actvity_selectpicturepopwindows.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tea_sdk_web_view_actvity_selectpicturepopwindows.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_web_view_activity.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_web_view_activity.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_web_view_activity_sendfeedback_newimagewithdelete.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_web_view_activity_sendfeedback_newimagewithdelete.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_web_view_activity_sendfeedback.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_web_view_activity_sendfeedback.xml"
+    },
+    {
+        "merged": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/res/merged/androidTest/debug/layout/com_taobao_tae_sdk_web_view_menu_item.xml",
+        "source": "/Users/Leunghowell/Desktop/AndroidProject/XunTa/OneSDK/build/intermediates/bundles/debug/res/layout/com_taobao_tae_sdk_web_view_menu_item.xml"
+    }
+]

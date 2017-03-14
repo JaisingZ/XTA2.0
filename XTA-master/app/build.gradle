@@ -1,0 +1,120 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.0'
+
+    defaultConfig {
+        applicationId "com.larryhowell.xunta"
+        minSdkVersion 21
+        targetSdkVersion 24
+        versionCode 7
+        versionName "1.0"
+        signingConfig signingConfigs.debug
+
+        manifestPlaceholders = [
+                GETUI_APP_ID : "zeK98ASy1qAyXSZlDqbpV9",
+                GETUI_APP_KEY : "pIGvmqqmdG959bE2UZPhp2",
+                GETUI_APP_SECRET : "Zclr421CK58L2DbDcRbfyA",
+                PACKAGE_NAME : applicationId
+        ]
+
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "mips", "mips64", "x86", "x86_64"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('/Users/Leunghowell/Desktop/AndroidProject/XunTa/sign.jks')
+            storePassword "leunghowell"
+            keyAlias "leunghowell"
+            keyPassword "leunghowell"
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    productFlavors {
+
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+        classpath 'me.tatarka:gradle-retrolambda:3.2.5'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url "https://raw.githubusercontent.com/umeng/mvn-repo-umeng/master/repository" }
+        maven { url "https://jitpack.io" }
+        maven { url "http://mvn.gt.igexin.com/nexus/content/repositories/releases/" }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':OneSDK')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/photoview.jar')
+    compile files('libs/jpush-android-2.1.7.jar')
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.android.support:cardview-v7:24.0.0'
+    compile 'com.android.support:palette-v7:24.0.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.balysv:material-ripple:1.0.2'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.soundcloud.android:android-crop:1.0.1@aar'
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'me.drakeet.materialdialog:library:1.2.2'
+    compile 'com.github.arimorty:floatingsearchview:2.0.1'
+    compile 'com.malinskiy:superrecyclerview:1.1.4'
+}
